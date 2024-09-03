@@ -124,7 +124,7 @@ extension CanvasContentView {
 
         redColorButton.addAction(.init { _ in
             drawingTool.setDrawingTool(.brush)
-            drawingTool.setBrushColor(UIColor.red.withAlphaComponent(0.75))
+            drawingTool.setBrushColor(UIColor(red: 1.0, green: 204.0/255.0, blue: 204.0/255.0, alpha: 0.5))
         }, for: .touchUpInside)
 
         eraserButton.addAction(.init { _ in
